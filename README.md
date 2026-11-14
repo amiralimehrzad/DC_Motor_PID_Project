@@ -25,7 +25,7 @@ The DC motor is described by its electrical and mechanical equations.
 **Electrical equation:**
 
 \[
-G(s) = Ω(s)/V(s) = Kt / [(L·s + R)(J·s + b) + Kt·Ke]
+V(s) = (L·s + R)·I(s) + Ke·Ω(s)
 \]
 
 **Mechanical equation:**
@@ -37,7 +37,7 @@ G(s) = Ω(s)/V(s) = Kt / [(L·s + R)(J·s + b) + Kt·Ke]
 The resulting transfer function is:
 
 \[
-G(s) = Ω(s)/V(s) = Kt / [(Ls+R)(Js+b) + Kt·Ke]
+G(s) = Ω(s)/V(s) = Kt / [(L·s + R)(J·s + b) + Kt·Ke]
 \]
 
 ## Motor Parameters
