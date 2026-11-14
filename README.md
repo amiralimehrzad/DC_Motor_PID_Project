@@ -68,20 +68,19 @@ G(s)=\frac{\Omega(s)}{V(s)}
 
 ### 1. Open-Loop DC Motor Step Response
 
-![Open-Loop DC Motor Step Response](Open-Loop%20DC%20Motor%20Step%20Response.png)
+![Open-Loop DC Motor Step Response](images/Open-Loop%20DC%20Motor%20Step%20Response.png)
 
 ### 2. Closed-Loop Response with PID Controller
 
-![Closed-Loop Response with PID Controller](Closed-Loop%20Response%20with%20PID%20Controller.png)
+![Closed-Loop Response with PID Controller](images/Closed-Loop%20Response%20with%20PID%20Controller.png)
 
 ### 3. Comparison of Motor Responses
 
-![Comparison of Motor Responses](Comparison%20of%20Motor%20Responses.png)
+![Comparison of Motor Responses](images/Comparison%20of%20Motor%20Responses.png)
 
 ### 4. Response to Load Torque Disturbance
 
-![Response to Load Torque Disturbance](Response%20to%20Load%20Torque%20Disturbance.png)
-
+![Response to Load Torque Disturbance](images/Response%20to%20Load%20Torque%20Disturbance.png)
 ## Performance Evaluation
 
 The controller is evaluated using the following performance indicators:
