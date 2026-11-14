@@ -56,19 +56,35 @@ G(s)=\frac{\Omega(s)}{V(s)}
 
 ## Methodology
 
-The project is divided into the following stages:
+1. Mathematical modeling of the DC motor.
+2. Transfer function development using MATLAB.
+3. Open-loop step response analysis.
+4. PID controller design using MATLAB.
+5. Closed-loop response analysis.
+6. Open-loop and closed-loop performance comparison.
+7. Load torque disturbance rejection analysis.
 
-1. **Mathematical Modeling:** Deriving the electrical and mechanical equations of the DC motor.
-2. **Transfer Function Development:** Constructing the motor transfer function using MATLAB.
-3. **Open-Loop Analysis:** Evaluating the motor's natural response without feedback control.
-4. **PID Controller Design:** Designing a PID controller using MATLAB's PID tuning functionality.
-5. **Closed-Loop Analysis:** Evaluating the controlled motor response.
-6. **Performance Comparison:** Comparing open-loop and closed-loop responses.
-7. **Disturbance Rejection:** Investigating the effect of external load torque on motor speed.
+## Simulation Results
+
+### 1. Open-Loop DC Motor Step Response
+
+![Open-Loop DC Motor Step Response](Open-Loop%20DC%20Motor%20Step%20Response.png)
+
+### 2. Closed-Loop Response with PID Controller
+
+![Closed-Loop Response with PID Controller](Closed-Loop%20Response%20with%20PID%20Controller.png)
+
+### 3. Comparison of Motor Responses
+
+![Comparison of Motor Responses](Comparison%20of%20Motor%20Responses.png)
+
+### 4. Response to Load Torque Disturbance
+
+![Response to Load Torque Disturbance](Response%20to%20Load%20Torque%20Disturbance.png)
 
 ## Performance Evaluation
 
-The following performance indicators are used to evaluate the controller:
+The controller is evaluated using the following performance indicators:
 
 - Rise Time
 - Settling Time
@@ -79,20 +95,13 @@ The following performance indicators are used to evaluate the controller:
 ## Repository Structure
 
 ```text
-DC-Motor-PID-Control/
+DC_Motor_PID_Project/
 │
-├── MATLAB/
-│   └── DC_Motor_PID_Project.m
-│
-├── Results/
-│   ├── Open_Loop.png
-│   ├── Closed_Loop.png
-│   ├── Comparison.png
-│   └── Disturbance.png
-│
-├── Documentation/
-│   └── Mathematical_Model.pdf
-│
+├── DC_Motor_PID_Project.m
+├── Open-Loop DC Motor Step Response.png
+├── Closed-Loop Response with PID Controller.png
+├── Comparison of Motor Responses.png
+├── Response to Load Torque Disturbance.png
 ├── README.md
 └── LICENSE
 ```
@@ -106,7 +115,7 @@ DC-Motor-PID-Control/
 
 1. Clone or download this repository.
 2. Open MATLAB.
-3. Navigate to the `MATLAB` directory.
+3. Navigate to the project directory.
 4. Run `DC_Motor_PID_Project.m`.
 5. Review the generated plots and performance measurements.
 
@@ -120,8 +129,6 @@ DC-Motor-PID-Control/
 - Time-Domain Analysis
 
 ## Future Improvements
-
-Possible extensions of this project include:
 
 - Comparing P, PI, and PID controllers.
 - Implementing a state-space representation.
